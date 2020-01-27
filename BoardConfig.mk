@@ -152,8 +152,7 @@ TW_NO_SCREEN_TIMEOUT := true
 
 # Encryption support
 TARGET_HW_DISK_ENCRYPTION := true
-TW_INCLUDE_CRYPTO := true
-TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/cryptfs_hw
+TARGET_CRYPTFS_HW_PATH := device/qcom/common/cryptfs_hw
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
