@@ -94,8 +94,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 RECOVERY_SDCARD_ON_DATA := true
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/twrp.fstab
-#TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery/root/etc/twrp.fstab
 
 # Root filesystem
 LZMA_RAMDISK_TARGETS := recovery
@@ -152,7 +151,7 @@ TW_NO_SCREEN_TIMEOUT := true
 
 # Encryption support
 TARGET_HW_DISK_ENCRYPTION := true
-TARGET_CRYPTFS_HW_PATH := device/qcom/common/cryptfs_hw
+# TARGET_CRYPTFS_HW_PATH := device/qcom/common/cryptfs_hw
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
