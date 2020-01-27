@@ -1,0 +1,20 @@
+ro.product.model=E
+ro.product.brand=10or
+ro.product.name=omni_e
+ro.product.device=e
+ro.product.manufacturer=10or
+ro.product.board=e
+ro.board.platform=E
+
+# vendor
+ro.vendor.product.manufacturer=10or
+ro.vendor.product.model=E
+ro.vendor.product.brand=10or
+ro.vendor.product.name=omni_e
+ro.vendor.product.device=e
+
+ro.product.cpu.abi=arm64-v8a
+ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.product.cpu.abilist64=arm64-v8a
+ro.product.manufacturer=10or
